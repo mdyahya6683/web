@@ -1,0 +1,181 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.freepik.com/free-photos-vectors/coding-background'); /* Add your image URL here */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Keeps the background image centered */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    color: #000000; /* Text color is white to contrast with the background */
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+header {
+    background: url('https://via.placeholder.com/1920x600?text=Java+Header') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+    width: 100%;
+}
+
+header .header-content {
+    max-width: 800px;
+    margin: auto;
+    color: #000000;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+    color: #000000;
+}
+
+header button {
+    background: #0def05;
+    color: rgb(250, 249, 249);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+header button:hover {
+    background: #0056b3;
+}
+header section p{
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+    color: #ffffff;
+}
+/* Section Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Topics Section */
+#topics .topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topic-box {
+    background: #d80f0f;
+    flex: 1 1 calc(45%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(232, 227, 227, 0.1);
+    max-width: 300px;
+}
+
+.topic-box:hover {
+    transform: translateY(-10px);
+}
+
+.topic-box img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}  
+
+h3{
+    color: #fffefe;
+}
+.h3 p{
+    color: #fffefe;
+}
+
+/* Videos Section */
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    width: 320px;
+    height: 180px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.video-container iframe:hover {
+    transform: scale(1.05);
+}
+
+/* Career Section */
+#career ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#career ul {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    position: relative;
+    color: blue;
+}
+#career li {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    position: relative;
+    color: rgb(255, 0, 0);
+}
+#career ul li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}

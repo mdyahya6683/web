@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Default font */
+    color: #333; /* Default text color */
+    background-color: #000000; /* Default background color */
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc; /* Link color */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #003366; /* Hover color for links */
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section#python {
+    padding: 20px;
+    background: url('your-background.jpg') no-repeat center center/cover; /* Replace with your background image */
+    color: #020202; /* Default text color for the section */
+}
+
+/* Div Containers */
+section#python div {
+    background-color: rgba(255, 246, 246, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(109, 4, 4, 0.3);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #ffcc00; /* Custom heading color */
+    font-family: 'Georgia', serif; /* Custom font for headings */
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle; /* Nested list style */
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* Video Embeds */
+iframe {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons (optional for links) */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #cc5200;
+}
+
+/* Customizable Variables */
+:root {
+    --primary-color: #4CAF50; /* Example primary color */
+    --secondary-color: #ffcc00; /* Example secondary color */
+    --text-color: #333; /* Example text color */
+    --background-color: #f4f4f4; /* Example background color */
+}
